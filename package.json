@@ -1,0 +1,34 @@
+{
+  "name": "koa-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "ts-start": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
+    "debug": "nodemon --exec ./node_modules/.bin/ts-node -- --debug-brk --nolazy ./src/index.ts ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@t2ee/vader": "^0.1.8",
+    "@types/koa": "^2.0.38",
+    "@types/koa-bodyparser": "^3.0.23",
+    "@types/koa-compose": "^3.2.0",
+    "koa": "^2.0.0-alpha.8",
+    "koa-bodyparser": "^2.3.0",
+    "koa-compress": "^1.0.9",
+    "koa-static": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/koa-compress": "^2.0.6",
+    "@types/koa-static": "^2.0.22",
+    "@types/node": "^7.0.5",
+    "nodemon": "^1.11.0",
+    "reflect-metadata": "^0.1.10",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.0.6"
+  }
+}
