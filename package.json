@@ -14,9 +14,12 @@
   "license": "ISC",
   "dependencies": {
     "@t2ee/vader": "^0.1.8",
+    "@types/co-views": "^2.1.6",
     "@types/koa": "^2.0.38",
     "@types/koa-bodyparser": "^3.0.23",
     "@types/koa-compose": "^3.2.0",
+    "co-views": "^2.1.0",
+    "ejs": "^2.5.6",
     "koa": "^2.0.0-alpha.8",
     "koa-bodyparser": "^2.3.0",
     "koa-compress": "^1.0.9",
